@@ -22,7 +22,7 @@ def hbnb():
 
 @app.route("/c/<text>", strict_slashes=False)
 def c_text(text):
-    """ Route to display "C <text>" where <text> is a variable 
+    """ Route to display "C <text>" where <text> is a variable
     passed in the URL
     """
     text = text.replace('_', ' ')
